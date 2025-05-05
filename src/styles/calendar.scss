@@ -4,13 +4,16 @@
 .calendar {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
   gap: $day-gap;
-  height: auto;
   width: $calendar-width;
-  padding: 82px 0 0 159px;
+  height: 768px;
+  padding: 0 159px;
   &__day {
     width: $day-size;
     height: $day-size;
+    margin: 0;
+    padding: 0;
     border: solid black $day-border;
     position: relative;
     background-color: #eee;
